@@ -1,13 +1,10 @@
 const Maquette = require('maquette');
 const Projector = Maquette.createProjector();
-const _ = require('lodash');
 
 
 class Router {
 
-    constructor() {
-        _.bindAll(this, ['render', 'navigateForward', 'navigateBack', 'presentModal']);
-        
+    constructor() {        
         this._navstack = [];
         this._modalPresent = false;
     }
