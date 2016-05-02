@@ -2,6 +2,11 @@
 A small, simple es6 class to be used as a navigation stack for Maquette JS applications.
 
 ___
+#### Example gif
+![Navstack Example Gif](/example.gif)
+___
+
+
 While this can be applied in other situations, I use it primarily in Apache Cordova applications along with Maquette JS.  It is just a simple navigation stack that allows pushing and popping [_Components_](http://maquettejs.org/docs/component-approach.html).  This is used in single page applications that don't use anchors/links to change urls, but rather change the divs in the viewport.  Currently using [Browserify](http://browserify.org) to require the module.
 
 There are pre-requisites with each component for the Router to work:
